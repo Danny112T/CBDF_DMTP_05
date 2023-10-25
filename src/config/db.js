@@ -7,7 +7,7 @@ const password = process.env.MYSQLPASSWORD || ""; // render
 const sequelize = new Sequelize(
     'tienda',
     'root',
-    'Datovar11!',
+    '',
     {
         host: 'localhost',
         dialect: 'mysql'
